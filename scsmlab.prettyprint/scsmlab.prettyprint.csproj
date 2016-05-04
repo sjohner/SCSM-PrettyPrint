@@ -127,6 +127,7 @@
     <Content Include="Resources\Microsoft.Office.Interop.Word.dll" />
     <Content Include="Resources\Microsoft.EnterpriseManagement.Common.dll" />
     <Content Include="Resources\Microsoft.EnterpriseManagement.Core.dll" />
+    <Content Include="Resources\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="VBIDE">
