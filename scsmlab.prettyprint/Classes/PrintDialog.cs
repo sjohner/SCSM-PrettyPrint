@@ -1,5 +1,5 @@
 ﻿/* 
- * Copyright (C) 2014 - 2016 Stefan Johner <sjohner@posteo.ch>
+ * Copyright (C) 2014 - 2016 Stefan Johner <sjohner@outlook.com>
  * This file is part of Service Manager PrettyPrint.
  * 
  * Service Manager PrettyPrint is free software: you can redistribute it and/or modify
@@ -16,13 +16,7 @@
 */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using System.Drawing;
 using System.Printing;
-using System.Windows.Forms;
 using System.Windows.Controls;
 using System.Drawing.Printing;
 using System.Security;

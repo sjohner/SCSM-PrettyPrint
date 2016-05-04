@@ -49,31 +49,31 @@
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.ServiceManager.Application.Common, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.ServiceManager.Application.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\Library\Announcements\Microsoft.EnterpriseManagement.ServiceManager.Application.Common.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.ServiceManager.SharedResources, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.ServiceManager.SharedResources.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\PackagesToLoad\Microsoft.EnterpriseManagement.ServiceManager.SharedResources.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.UI.Extensions, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.Extensions.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\PackagesToLoad\Microsoft.EnterpriseManagement.UI.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.UI.Foundation, Version=7.1.1000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.Foundation.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\PackagesToLoad\Microsoft.EnterpriseManagement.UI.Foundation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.UI.SdkDataAccess, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.SdkDataAccess.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\Library\Console\Microsoft.EnterpriseManagement.UI.SdkDataAccess.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.UI.SMControls, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.SMControls.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\PackagesToLoad\Microsoft.EnterpriseManagement.UI.SMControls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.EnterpriseManagement.UI.WpfWizardFramework, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.WpfWizardFramework.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft System Center 2012\Service Manager Authoring\PackagesToLoad\Microsoft.EnterpriseManagement.UI.WpfWizardFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -127,13 +127,6 @@
     <Content Include="Resources\Microsoft.Office.Interop.Word.dll" />
     <Content Include="Resources\Microsoft.EnterpriseManagement.Common.dll" />
     <Content Include="Resources\Microsoft.EnterpriseManagement.Core.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.ServiceManager.Application.Common.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.ServiceManager.SharedResources.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.Extensions.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.Foundation.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.SdkDataAccess.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.SMControls.dll" />
-    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.WpfWizardFramework.dll" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="VBIDE">

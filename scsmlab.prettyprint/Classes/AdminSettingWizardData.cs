@@ -1,5 +1,5 @@
 ﻿/* 
- * Copyright (C) 2014 - 2016 Stefan Johner <sjohner@posteo.ch>
+ * Copyright (C) 2014 - 2016 Stefan Johner <sjohner@outlook.com>
  * This file is part of Service Manager PrettyPrint.
  * 
  * Service Manager PrettyPrint is free software: you can redistribute it and/or modify
@@ -17,8 +17,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 //Requires Microsoft.EnterpriseManagement.Core and Microsoft.EnterpriseManagement.Common
 //Contains EnterpriseManagementObject
@@ -34,8 +32,6 @@ using Microsoft.EnterpriseManagement.UI.WpfWizardFramework;
 
 //Contains RegistryKey
 using Microsoft.Win32;
-using System.IO;
-using System.Collections.ObjectModel;
 
 
 namespace scsmlab.prettyprint.Classes

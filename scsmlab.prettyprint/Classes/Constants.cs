@@ -1,5 +1,5 @@
 ﻿/* 
- * Copyright (C) 2014 - 2016 Stefan Johner <sjohner@posteo.ch>
+ * Copyright (C) 2014 - 2016 Stefan Johner <sjohner@outlook.com>
  * This file is part of Service Manager PrettyPrint.
  * 
  * Service Manager PrettyPrint is free software: you can redistribute it and/or modify
@@ -15,10 +15,6 @@
  * You should have received a copy of the GNU General Public License
 */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace scsmlab.prettyprint.Classes
 {
