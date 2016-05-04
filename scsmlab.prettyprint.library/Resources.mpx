@@ -1,0 +1,7 @@
+﻿<ManagementPackFragment SchemaVersion="SM2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Resources>
+    <Assembly ID="scsmlab.prettyprint.assembly" Accessibility="Public" FileName="scsmlab.prettyprint.dll" HasNullStream="false" QualifiedName="scsmlab.prettyprint" />
+    <Image ID="print24" Accessibility="Public" FileName="print24.png" HasNullStream="false" />
+    <Image ID="print16" Accessibility="Public" FileName="print16.png" HasNullStream="false" />
+  </Resources>
+</ManagementPackFragment>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC5F9F65-752E-4A17-AA62-EADFE166AC7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>scsmlab.prettyprint</RootNamespace>
+    <AssemblyName>scsmlab.prettyprint</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.EnterpriseManagement.Common, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.Core, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.ServiceManager.Application.Common, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.ServiceManager.Application.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.ServiceManager.SharedResources, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.ServiceManager.SharedResources.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.UI.Extensions, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.UI.Foundation, Version=7.1.1000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.UI.SdkDataAccess, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.SdkDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.UI.SMControls, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.SMControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EnterpriseManagement.UI.WpfWizardFramework, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.EnterpriseManagement.UI.WpfWizardFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Resources\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AdminSettingTaskHandler.cs" />
+    <Compile Include="Classes\AdminSettingWizardData.cs" />
+    <Compile Include="Classes\ChangeRequestTaskHandler.cs" />
+    <Compile Include="Classes\PrintDialog.cs" />
+    <Compile Include="Classes\ServiceRequestTaskHandler.cs" />
+    <Compile Include="Classes\Constants.cs" />
+    <Compile Include="Classes\IncidentTaskHandler.cs" />
+    <Compile Include="Classes\Validation.cs" />
+    <Compile Include="Forms\AdminSetting_General.xaml.cs">
+      <DependentUpon>AdminSetting_General.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminSetting_ChangeRequest.xaml.cs">
+      <DependentUpon>AdminSetting_ChangeRequest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminSetting_ServiceRequest.xaml.cs">
+      <DependentUpon>AdminSetting_ServiceRequest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AdminSetting_Incident.xaml.cs">
+      <DependentUpon>AdminSetting_Incident.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PropertyWindow.xaml.cs">
+      <DependentUpon>PropertyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Microsoft.Office.Interop.Word.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.Common.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.Core.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.ServiceManager.Application.Common.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.ServiceManager.SharedResources.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.Extensions.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.Foundation.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.SdkDataAccess.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.SMControls.dll" />
+    <Content Include="Resources\Microsoft.EnterpriseManagement.UI.WpfWizardFramework.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Forms\AdminSetting_General.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\AdminSetting_ChangeRequest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\AdminSetting_ServiceRequest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\AdminSetting_Incident.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ResourceDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\PropertyWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

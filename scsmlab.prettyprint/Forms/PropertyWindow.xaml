@@ -1,0 +1,75 @@
+﻿<!--
+Copyright (C) 2014 - 2016 Stefan Johner <sjohner@posteo.ch>
+This file is part of Service Manager PrettyPrint.
+
+Service Manager PrettyPrint is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Service Manager PrettyPrint is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+-->
+    
+<UserControl x:Class="scsmlab.prettyprint.Forms.PropertyWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Background="White"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="550">
+    
+    <Grid Width="Auto" Height="Auto" Margin="10,10,10,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10,10,10,0" Name="stackPanelTitle" VerticalAlignment="Top" Width="Auto" >
+            <Label Content="Properties that can be used in template (use Name attribute):" Height="28" HorizontalAlignment="Left" Name="labelTitle" VerticalAlignment="Top" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Margin="10,0,10,0" Name="stackPanelProperties" VerticalAlignment="Top" Width="Auto" >
+            <ListView VerticalAlignment="Top" Name="listViewProperties"  Height="150" >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" 
+                                    DisplayMemberBinding="{Binding Path=Name}" 
+                                    Width="Auto" />
+                        <GridViewColumn Header="Type" 
+                                    DisplayMemberBinding="{Binding Path=Type}" 
+                                    Width="Auto" />
+                        <GridViewColumn Header="DisplayName" 
+                                    DisplayMemberBinding="{Binding Path=DisplayName}" 
+                                    Width="Auto" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10,10,10,0" Name="stackPanelComponets" VerticalAlignment="Top" Width="Auto" >
+            <Label Content="Components that can be used in template (use Alias attribute):" Height="28" HorizontalAlignment="Left" Name="labelComponents" VerticalAlignment="Top" />
+        </StackPanel>
+        <StackPanel Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Margin="10,0,10,0" Name="stackPanelComponents" VerticalAlignment="Top" Width="Auto" >
+            <ListView VerticalAlignment="Top" Name="listViewComponents"  Height="150" >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Alias" 
+                                    DisplayMemberBinding="{Binding Path=Alias}" 
+                                    Width="Auto" />
+                        <GridViewColumn Header="TargetType" 
+                                    DisplayMemberBinding="{Binding Path=TargetType}" 
+                                    Width="Auto" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

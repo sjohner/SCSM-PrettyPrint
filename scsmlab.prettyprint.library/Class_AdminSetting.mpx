@@ -1,0 +1,44 @@
+﻿<ManagementPackFragment SchemaVersion="SM2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeDefinitions>
+    <EntityTypes>
+      <ClassTypes>
+
+        <ClassType ID="scsmlab.prettyprint.class.adminsetting" Base="AdminItemLibrary!System.SolutionSettings" Accessibility="Internal" Abstract="false" Hosted="false" Singleton="true" Extension="false">
+          <Property ID="scsmlabirtemplatepath" Key="false" Type="string" MaxLength="1024" AutoIncrement="false" />
+          <Property ID="scsmlabsrtemplatepath" Key="false" Type="string" MaxLength="1024" AutoIncrement="false" />
+          <Property ID="scsmlabcrtemplatepath" Key="false" Type="string" MaxLength="1024" AutoIncrement="false" />
+          <Property ID="scsmlabprintpreview" Key="false" Type="bool" AutoIncrement="false" />
+        </ClassType>
+
+      </ClassTypes>
+    </EntityTypes>
+  </TypeDefinitions>
+  <LanguagePacks>
+    <LanguagePack ID="ENU" IsDefault="true">
+      <DisplayStrings>
+
+        <DisplayString ElementID="scsmlab.prettyprint.class.adminsetting">
+          <Name>PrettyPrint Settings</Name>
+          <Description>Settings for PrettyPrint app</Description>
+        </DisplayString>
+        <DisplayString ElementID="scsmlab.prettyprint.class.adminsetting" SubElementID="scsmlabprintpreview">
+          <Name>Show Word print preview</Name>
+          <Description></Description>
+        </DisplayString>
+        <DisplayString ElementID="scsmlab.prettyprint.class.adminsetting" SubElementID="scsmlabirtemplatepath">
+          <Name>Path to Incident Word template</Name>
+          <Description></Description>
+        </DisplayString>
+        <DisplayString ElementID="scsmlab.prettyprint.class.adminsetting" SubElementID="scsmlabsrtemplatepath">
+          <Name>Path to Service Request Word template</Name>
+          <Description></Description>
+        </DisplayString>
+        <DisplayString ElementID="scsmlab.prettyprint.class.adminsetting" SubElementID="scsmlabcrtemplatepath">
+          <Name>Path to Change Request Word template</Name>
+          <Description></Description>
+        </DisplayString>
+
+      </DisplayStrings>
+    </LanguagePack>
+  </LanguagePacks>
+</ManagementPackFragment>

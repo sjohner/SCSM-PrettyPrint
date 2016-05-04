@@ -1,0 +1,62 @@
+﻿<!--
+Copyright (C) 2014 - 2016 Stefan Johner <sjohner@posteo.ch>
+This file is part of Service Manager PrettyPrint.
+
+Service Manager PrettyPrint is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Service Manager PrettyPrint is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+-->
+    
+<wpfwiz:WizardRegularPageBase x:Class="scsmlab.prettyprint.Forms.AdminSetting_ServiceRequest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:wpfwiz="clr-namespace:Microsoft.EnterpriseManagement.UI.WpfWizardFramework;assembly=Microsoft.EnterpriseManagement.UI.WpfWizardFramework"
+             xmlns:local="clr-namespace:scsmlab.prettyprint.Classes"
+             Width="Auto"
+             Height="Auto">
+
+    <!--Resource Dictionary-->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ResourceDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid Width="Auto" Height="Auto" Margin="10,10,10,30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Height="Auto" HorizontalAlignment="Stretch" Margin="10,10,10,0" Name="stackPanelTemplatePath" VerticalAlignment="Top" Width="Auto">
+            <Label Content="Enter UNC path to Word template file used for Service Request printing:" Height="28" HorizontalAlignment="Left" Name="labelTemplatePath" VerticalAlignment="Top" />
+            <TextBox Name="textBoxTemplatePath" VerticalAlignment="Top" HorizontalAlignment="Stretch" Width="Auto" Validation.ErrorTemplate="{StaticResource validationTemplate}">
+                <TextBox.Text>
+                    <Binding>
+                        <Binding.Path>ServiceRequestTemplatePath</Binding.Path>
+                        <Binding.Mode>TwoWay</Binding.Mode>
+                        <Binding.UpdateSourceTrigger>PropertyChanged</Binding.UpdateSourceTrigger>
+                        <Binding.ValidationRules>
+                            <local:TextBoxEmptyRule ValidatesOnTargetUpdated="True"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <Button Margin="0,20,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="buttonShowServiceRequestProperties" Height="30" MinWidth="200" Click="buttonShowServiceRequestProperties_Click">Service Request Properties</Button>
+        </StackPanel>
+    </Grid>
+</wpfwiz:WizardRegularPageBase>

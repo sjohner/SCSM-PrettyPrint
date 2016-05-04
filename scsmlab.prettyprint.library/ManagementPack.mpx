@@ -1,0 +1,20 @@
+﻿<ManagementPackFragment SchemaVersion="SM2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Categories>
+    <Category ID="Category.scsmlab.prettyprint.library" Value="Console!Microsoft.EnterpriseManagement.ServiceManager.ManagementPack">
+      <ManagementPackName>scsmlab.prettyprint.library</ManagementPackName>
+      <ManagementPackVersion>1.0.0.0</ManagementPackVersion>
+      <ManagementPackPublicKeyToken>8275f1180deadcc4</ManagementPackPublicKeyToken>
+    </Category>
+    <Category ID="Category.DoubleClickAdminSetting" Target="scsmlab.prettyprint.adminsetting.task" Value="Console!Microsoft.EnterpriseManagement.ServiceManager.UI.Console.DoubleClickTask" />
+  </Categories>
+  <LanguagePacks>
+    <LanguagePack ID="ENU" IsDefault="true">
+      <DisplayStrings>
+        <DisplayString ElementID="scsmlab.prettyprint.library">
+          <Name>SCSMLab PrettyPrint Library</Name>
+          <Description>Contains task definitions for SCSMLab PrettyPrint task</Description>
+        </DisplayString>
+      </DisplayStrings>
+    </LanguagePack>
+  </LanguagePacks>
+</ManagementPackFragment>
