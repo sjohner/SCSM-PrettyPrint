@@ -26,7 +26,7 @@
     <Company>itnetx gmbh</Company>
     <Copyright>Copyright (c) itnetx gmbh. All rights reserved.</Copyright>
     <DelaySigning>False</DelaySigning>
-    <AssemblyOriginatorKeyFile>Resources\itnetx.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Resources\KeyFile.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -103,7 +103,7 @@
     <EmbeddedResource Include="Images\print24.png">
       <SubType>Content</SubType>
     </EmbeddedResource>
-    <Content Include="Resources\itnetx.snk">
+    <Content Include="Resources\KeyFile.snk">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
