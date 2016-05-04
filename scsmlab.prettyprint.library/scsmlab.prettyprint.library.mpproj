@@ -23,8 +23,8 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug\</OutputPath>
     <GenerateSealed>True</GenerateSealed>
-    <Company>itnetx gmbh</Company>
-    <Copyright>Copyright (c) itnetx gmbh. All rights reserved.</Copyright>
+    <Company>Stefan Johner</Company>
+    <Copyright>Copyright (c) Stefan Johner. All rights reserved.</Copyright>
     <DelaySigning>False</DelaySigning>
     <AssemblyOriginatorKeyFile>Resources\KeyFile.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
