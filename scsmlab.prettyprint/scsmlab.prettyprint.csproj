@@ -124,21 +124,9 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Microsoft.Office.Interop.Word.dll" />
     <Content Include="Resources\Microsoft.EnterpriseManagement.Common.dll" />
     <Content Include="Resources\Microsoft.EnterpriseManagement.Core.dll" />
     <Content Include="Resources\Readme.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="VBIDE">
-      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
-      <VersionMajor>5</VersionMajor>
-      <VersionMinor>3</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>primary</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Forms\AdminSetting_General.xaml">
