@@ -2,4 +2,3 @@
 
 - Microsoft.EnterpriseManagement.Common.dll
 - Microsoft.EnterpriseManagement.Core.dll
-- Microsoft.Office.Interop.Word.dll
