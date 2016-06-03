@@ -10,12 +10,12 @@ I also recommend installing the [Service Manager Authoring Tool] (https://www.mi
 
 ## Questions and issues
 
-The [github issue tracker](https://github.com/petkaantonov/bluebird/issues) is **_only_** for bug reports and feature requests. Anything else, such as questions for help in using the app, please post on  [Technet Gallery project page](https://gallery.technet.microsoft.com/Service-Manager-PrettyPrint-0e1808b1).
+The [github issue tracker](https://github.com/sjohner/SCSM-PrettyPrint/issues) is **_only_** for bug reports and feature requests. Anything else, such as questions for help in using the app, please post on  [Technet Gallery project page](https://gallery.technet.microsoft.com/Service-Manager-PrettyPrint-0e1808b1).
 
 ## Authors
 * **Stefan Johner** - *Initial work* - [sjohner](https://github.com/sjohner)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/sjohner/SCSM-PrettyPrint/contributors) who participated in this project.
 
 ## License
 This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
