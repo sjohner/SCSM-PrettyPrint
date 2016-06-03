@@ -8,6 +8,10 @@ I also recommend installing the [Service Manager Authoring Tool] (https://www.mi
 
 **IMPORTANT:** Since *Microsoft.EnterpriseManagement.Common.dll* and *Microsoft.EnterpriseManagement.Core.dll* are not included with Service Manager Authoring Tool, you will have to manually copy them from one of your Service Manager management servers (search for the files in Service Manager install directory) to *scsmlab.prettyprint\Resources* folder.
 
+## Questions and issues
+
+The [github issue tracker](https://github.com/petkaantonov/bluebird/issues) is **_only_** for bug reports and feature requests. Anything else, such as questions for help in using the app, please post on  [Technet Gallery project page](https://gallery.technet.microsoft.com/Service-Manager-PrettyPrint-0e1808b1).
+
 ## Authors
 * **Stefan Johner** - *Initial work* - [sjohner](https://github.com/sjohner)
 
