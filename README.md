@@ -2,6 +2,10 @@
 PrettyPrint app allows console users to print specific Work Item information using a custom Microsoft Word template. The solution creates a new Microsoft Word document from a given template and replaces bookmarks in the document with Work Item property values.
 
 ## Requirements
+* Visual Studio 2012
+* [System Center Visual Studio Authoring Extensions] (https://www.microsoft.com/en-us/download/details.aspx?id=30169)
+* [Service Manager Authoring Tool] (https://www.microsoft.com/de-ch/download/details.aspx?id=40896)
+
 I recommend using Microsoft Visual Studio 2012 for best experience with .Net 3.5 and Office Interop assemblies. In addition you need to install the [System Center Visual Studio Authoring Extensions] (https://www.microsoft.com/en-us/download/details.aspx?id=30169) which enables you to create management packs for SCOM and SCSM right from within Visual Studio.
 
 I also recommend installing the [Service Manager Authoring Tool] (https://www.microsoft.com/de-ch/download/details.aspx?id=40896). It contains a lot of DLL files and management packs that are referenced by this (and many other) Service Manager projects.
@@ -10,7 +14,7 @@ I also recommend installing the [Service Manager Authoring Tool] (https://www.mi
 
 ## Questions and issues
 
-The [github issue tracker](https://github.com/sjohner/SCSM-PrettyPrint/issues) is **_only_** for bug reports and feature requests. Anything else, such as questions for help in using the app, please post on  [Technet Gallery project page](https://gallery.technet.microsoft.com/Service-Manager-PrettyPrint-0e1808b1).
+The [github issue tracker](https://github.com/sjohner/SCSM-PrettyPrint/issues) is **_only_** for bug reports and feature requests. Anything else, such as questions for help in using the app, please post on  [Technet Gallery project page](https://gallery.technet.microsoft.com/Service-Manager-PrettyPrint-0e1808b1) or get in contact directly.
 
 ## Authors
 * **Stefan Johner** - *Initial work* - [sjohner](https://github.com/sjohner)
