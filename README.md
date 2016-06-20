@@ -6,7 +6,7 @@ PrettyPrint app allows console users to print specific Work Item information usi
 * [System Center Visual Studio Authoring Extensions] (https://www.microsoft.com/en-us/download/details.aspx?id=30169)
 * [Service Manager Authoring Tool] (https://www.microsoft.com/de-ch/download/details.aspx?id=40896)
 
-I recommend using Microsoft Visual Studio 2012 for best experience with .Net 3.5 and Office Interop assemblies. In addition you need to install the [System Center Visual Studio Authoring Extensions] (https://www.microsoft.com/en-us/download/details.aspx?id=30169) which enables you to create management packs for SCOM and SCSM right from within Visual Studio.
+I recommend using Microsoft Visual Studio 2012 for best experience with .Net 3.5 and Office Interop assemblies (also see the following [thread on StackOverflow](http://stackoverflow.com/questions/32394541/visual-studio-2015-create-vsto-project-for-office-2010-and-above-that-targets)). In addition you need to install the [System Center Visual Studio Authoring Extensions] (https://www.microsoft.com/en-us/download/details.aspx?id=30169) which enables you to create management packs for SCOM and SCSM right from within Visual Studio.
 
 I also recommend installing the [Service Manager Authoring Tool] (https://www.microsoft.com/de-ch/download/details.aspx?id=40896). It contains a lot of DLL files and management packs that are referenced by this (and many other) Service Manager projects.
 
